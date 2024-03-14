@@ -116,7 +116,7 @@ hr {
 #topclothes {
   width: 500px;
   height: 1000px;
-  background-image: url("./../images/allbody/bikini_branew.png");
+  background-image: url("./../images/allbody/bikini_bra.png");
   position: absolute;
   top: -30%;
   left: -5%;
@@ -127,7 +127,7 @@ hr {
 #botclothes {
   width: 500px;
   height: 1000px;
-  background-image: url("./../images/allbody/bikini_pantsnew.png");
+  background-image: url("./../images/allbody/bikini_pants.png");
   position: absolute;
   top: -30%;
   left: -5%;
