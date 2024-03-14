@@ -502,7 +502,7 @@
                 aria-labelledby="pills-hairstyle-tab"
                 tabindex="0"
               >
-                <!-- Tab content | necklaces -->
+                <!-- Tab content | hairstyles -->
                 <div class="row">
                   <div class="col-3">
                     <div class="card text-center">
@@ -513,7 +513,7 @@
                       />
                       <div class="card-body p-0">
                         <h4 class="card-title fw-bold">Kiểu tóc 1</h4>
-                        <button class="btn w-100">Thử kiểu tóc</button>
+                        <button class="btn w-100" onclick="tryOutNow('hairstyle', '../assets/images/hairstyle/hairstyle1.png')">Thử kiểu tóc</button>
                       </div>
                     </div>
                   </div>
@@ -526,7 +526,7 @@
                       />
                       <div class="card-body p-0">
                         <h4 class="card-title fw-bold">Kiểu tóc 2</h4>
-                        <button class="btn w-100">Thử kiểu tóc</button>
+                        <button class="btn w-100" onclick="tryOutNow('hairstyle', '../assets/images/hairstyle/hairstyle2.png')">Thử kiểu tóc</button>
                       </div>
                     </div>
                   </div>
@@ -539,7 +539,7 @@
                       />
                       <div class="card-body p-0">
                         <h4 class="card-title fw-bold">Kiểu tóc 3</h4>
-                        <button class="btn w-100">Thử kiểu tóc</button>
+                        <button class="btn w-100" onclick="tryOutNow('hairstyle', '../assets/images/hairstyle/hairstyle3.png')">Thử kiểu tóc</button>
                       </div>
                     </div>
                   </div>
@@ -653,15 +653,15 @@
         </div>
         <div class="col-md-4">
           <div class="contain">
-            <div class="body"></div>
-            <div class="model"></div>
-            <div class="hairstyle"></div>
-            <div class="necklace"></div>
-            <div class="bikinitop"></div>
-            <div class="bikinibottom"></div>
-            <div class="handbag"></div>
-            <div class="feet"></div>
-            <div class="background"></div>
+            <div id="body"></div>
+            <div id="model"></div>
+            <div id="hairstyle"></div>
+            <div id="necklaces"></div>
+            <div id="topclothes"></div>
+            <div id="botclothes"></div>
+            <div id="handbags"></div>
+            <div id="shoes"></div>
+            <div id="background"></div>
           </div>
         </div>
       </div>
@@ -682,7 +682,7 @@
 
     <!-- <script src="./../models/ListChosen.js"></script> -->
     <!-- <script src="./../models/ChoseItem.js"></script> -->
-    <!-- <script src="./../utils/callData.js"></script> -->
+    <script src="./../utils/callData.js"></script>
     <!-- <script src="./../controllers/main.js"></script> -->
   </body>
 </html>
